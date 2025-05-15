@@ -1,7 +1,12 @@
 {
     "name": "jetimob/asaas-sdk-php-laravel",
     "description": "Laravel SDK for Asaa's API",
-    "keywords": ["sdk", "laravel", "php", "asaas"],
+    "keywords": [
+        "sdk",
+        "laravel",
+        "php",
+        "asaas"
+    ],
     "type": "library",
     "authors": [
         {
@@ -14,10 +19,10 @@
         "php": ">=8.1",
         "ext-json": "*",
         "ext-openssl": "*",
-        "jetimob/http-php-laravel": "^2",
-        "illuminate/support": "^9 || ^10 || ^12",
-        "illuminate/console": "^9 || ^10 || ^12",
-        "illuminate/container": "^9 || ^10 || ^12"
+        "jetimob/http-php-laravel": "^2 || dev-main",
+        "illuminate/support": ">=9.0 <13.0",
+        "illuminate/console": ">=9.0 <13.0",
+        "illuminate/container": ">=9.0 <13.0"
     },
     "require-dev": {
         "orchestra/testbench": "^7.6.1 || ^8"
