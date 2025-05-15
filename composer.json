@@ -16,8 +16,8 @@
         "ext-openssl": "*",
         "jetimob/http-php-laravel": "^2",
         "illuminate/support": "^9 || ^10 || ^12",
-        "illuminate/console": "^9.0 || ^10.0",
-        "illuminate/container": "^9.0 || ^10.0"
+        "illuminate/console": "^9 || ^10 || ^12",
+        "illuminate/container": "^9 || ^10 || ^12"
     },
     "require-dev": {
         "orchestra/testbench": "^7.6.1 || ^8"
